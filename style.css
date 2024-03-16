@@ -1,0 +1,180 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.Portfolio-section{
+	height: 400px;
+	width: 100%;
+	border:2px solid black;
+	text-align: center;
+	background-color:lightpink;
+}
+.navigation-bar{
+	position:fixed;
+	width: 100%;
+	background-color:#B5EAAA;
+	backdrop-filter: blur(5px);
+	z-index: 1;
+}
+.Portfolio-section h3{
+	margin-top: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.brand{
+	font-size: 35px;
+	font-family: Times New Roman ;
+	color:#34282C;
+	font-weight: bolder;
+	
+
+}
+.main-container{
+	position: relative;
+	top:75px;
+}
+.navmenu{
+	color: #34282C;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	padding-left: 15px;
+}
+.navmenu:hover{
+	text-decoration: underline 2px solid black;
+	text-underline-offset: 6px;
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s ;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s ;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+#home{
+	height: 100;
+	background-image: url(https://e7.pngegg.com/pngimages/574/478/png-clipart-computer-software-application-software-computer-program-installation-personal-computer-landing-page-gadget-electronics.png);
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position:90% 20%;
+	border: none;
+}
+#home-info{
+	position: absolute;
+	top: 20px;
+	width: 400px;
+	height: 250px;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+.info{
+	font-weight: bolder;
+	font-size: 22px;
+	color:white;
+}
+.designation{
+	color: royalblue;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.myname{
+	font-size: 35px;
+}
+
+.rsmbtn{
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: royalblue;
+	color: white;
+	transition-duration: 1s;
+}
+.rsmbtn:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform: scale(1.1);
+}
+#about{
+	border: solid black;
+}
+.about-section{
+	height: 500px;
+	width: 100%;
+	background-color: lightpink;
+}
+.aboutmain{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.aboutmain div{
+	height: 500px;
+	width: 50%;
+}
+.myphoto{
+	margin-top: 90px;
+	margin-left:5px;
+	animation-duration: 4s;
+	animation-name: zoom;
+	animation-iteration-count: 1;
+
+}
+@keyframes zoom{
+	100%{
+		transform: scale(1.2);
+		border-radius: 60px;
+	}
+}
+.heading{
+	font-family: Arail black;
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 45px;
+    font-weight: bolder;
+	color:black;
+}
+.careerobj{
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 100px;
+	word-spacing: 7px;
+	letter-spacing: 1px;
+}
